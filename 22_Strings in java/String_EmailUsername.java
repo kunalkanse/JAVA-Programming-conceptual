@@ -2,7 +2,7 @@
 // seperate username & domain name from email Address
 
 public class String_EmailUsername 
-{
+{ 
     public static void main(String[] args)
     {
         String str = "kunalskanse@gmail.com";
