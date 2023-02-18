@@ -81,6 +81,5 @@ class Strings1
         System.out.println(s10 + " equals " + s12 + " -> " + s10.equals(s12));
         System.out.println(s10 + " equals " + s13 + " -> " + s10.equals(s13));
         System.out.println(s10 + " equalsIgnoreCase " + s13 + " -> " + s10.equalsIgnoreCase(s13));
-
     }
 }
