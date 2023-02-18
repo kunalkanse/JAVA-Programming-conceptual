@@ -10,8 +10,10 @@ class Strings2
         
         // creates seperate object for each
         String s4 = new String("Hello");  //Heap
-        String s4 = new String("Hello");  //Heap
+        String s5 = new String("Hello");  //Heap
 
+        System.out.println(str1 == str2);   // true
+        System.out.println(str4 == str5);   // false
         
     }
 }
