@@ -9,6 +9,7 @@ class Overriding
 		bp.gun();	//Base gun
 		
 		//bp.sun();	//Derived sun
+		// cannot call
 		
 	}
 }
