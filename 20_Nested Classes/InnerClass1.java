@@ -19,6 +19,8 @@ class OuterClass
     // inner class
     class InnerClass
     {
+     
+        public int x = 0;
         void display()
         {
             // can access static member of outer class
@@ -31,6 +33,13 @@ class OuterClass
             System.out.println("outer_private = " + outer_private);
          
         }
+    }
+ 
+    void outerFun()
+    {
+       InnerClass IC = new InnerClass();
+       IC.display();
+       System.out.println(IC.x);
     }
 }
  
@@ -45,6 +54,7 @@ public class InnerClassDemo
         // accessing an inner class
         OuterClass outerObject = new OuterClass();
         OuterClass.InnerClass innerObject = outerObject.new InnerClass();
+        //OuterClass.InnerClass innerObject = new OuterClass().new InnerClass();
          
         innerObject.display();
     }
