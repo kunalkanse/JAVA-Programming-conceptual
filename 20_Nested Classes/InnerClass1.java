@@ -39,7 +39,7 @@ class OuterClass
     {
        InnerClass IC = new InnerClass();
        IC.display();
-       System.out.println(IC.x);
+       System.out.println(IC.x );
     }
 }
  
