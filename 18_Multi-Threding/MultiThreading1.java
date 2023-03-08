@@ -22,11 +22,12 @@ class MyThread1 implements Runnable
 
     public static void main(String args[])
     {
-        MyThread1 mythread = new MyThread1();
+        MyThread1 mythread1 = new MyThread1();  // implements runnable
+        Thread t1 = new Thread(mythread1);
 
-        MyThread2 t2 = new MyThread2(); // this class is in another file i.e MultiThreading2.java
+        MyThread2 t2 = new MyThread2(); // this class is in another file i.e MultiThreading2.java which extends Thread
 
-        Thread t1 = new Thread(mythread);
+        
 
         t1.start();
         t2.start();
