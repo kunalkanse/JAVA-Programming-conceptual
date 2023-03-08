@@ -6,7 +6,7 @@
  *
  */
 
-class AutoUnBoxing
+class AutoUnBoxing 
 {
     public static void main(String[] args) 
     {
