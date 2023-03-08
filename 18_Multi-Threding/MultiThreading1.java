@@ -24,7 +24,7 @@ class MyThread1 implements Runnable
     {
         MyThread1 mythread = new MyThread1();
 
-        MyThread2 t2 = new MyThread2(); // this class is in another file
+        MyThread2 t2 = new MyThread2(); // this class is in another file i.e MultiThreading2.java
 
         Thread t1 = new Thread(mythread);
 
